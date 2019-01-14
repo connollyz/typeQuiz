@@ -1,0 +1,147 @@
+@import"normalize";
+
+//VARIBALES
+
+//COLOURS
+
+//gray
+$primary: #302C2C;
+//offwhite
+$secondary: #EFEEE4;
+//red
+$tertiary: #A60704;
+
+//fonts
+$baseFont:'Montserrat', sans-serif;
+
+
+//BASE STYLES
+
+html{
+	font-size:62.5%;
+}//html
+
+h1, p{
+	font-family: $baseFont;
+}//h1, p
+
+h1{
+	font-size: 50px;
+	color: hotpink;
+	margin: 40px 0px 0px 0px;
+}
+
+a{
+	text-decoration: none;
+	font-family:$baseFont;
+	font-size: 1.5rem;
+}//a
+
+p{
+	font-size: 1.5rem;
+}//p
+
+
+
+
+.wrapper{
+	max-width: 80%;
+	margin: 0 auto;
+
+}//wrapper
+
+img{
+	width: 100%;
+}
+
+header{
+	background: $primary;
+}
+header img{
+	width: 25px;
+	margin: 10px;
+}
+
+body{
+	background: url(assets/background_index.jpg);
+	background-size: cover;
+	height: 100vh;
+}
+
+.text{
+	margin-top:20%;
+}
+
+.footer{
+	background: $primary;
+	.wrapper p{
+		margin: 15px auto;
+		color: $secondary;
+	}//wrapper p
+}//footer
+
+.button{	
+	margin:0 auto;
+	display: inline-block;
+	background: $primary;
+	border-radius: 5px;
+	padding: 5px;
+	a{
+		padding: 5px 10px;
+		text-align: center;
+		color: #fff;
+		font-size: 1.5rem;
+		font-weight: 300;
+		transition: font-size .2s ease-in-out;
+		&:hover{
+			font-size: 1.7rem;
+		}//hover
+	}//a
+	&:hover{
+		background: hotpink;
+	}
+}//button
+
+div.qustions{
+	margin-top: 10%;
+	border-top: 2px solid $primary;
+	padding: 20px 0px;
+	font-family: $baseFont;
+	font-weight: 700;
+	font-size: 2rem;
+}
+
+label{
+	font-family: $baseFont;
+	font-weight: 700;
+	font-size: 2rem;
+	padding: 10px;
+
+}
+
+input{
+	margin: 10px;
+}
+
+#submit{
+	margin:0 auto;
+	display: inline-block;
+	background: $primary;
+	border-radius: 5px;
+	padding: 5px 15px;
+	text-align: center;
+	color: #fff;
+	font-size: 1.5rem;
+	font-weight: 300;
+	transition: font-size .2s ease-in-out;
+		&:hover{
+			background: hotpink;
+			font-size: 1.7rem;
+		}//hover
+
+div#results{
+	font-family: $baseFont;
+	font-size: 50px;
+	color: hotpink;
+	font-weight: 300;
+}

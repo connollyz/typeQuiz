@@ -1,0 +1,42 @@
+//VARIBALES
+
+//COLOURS
+
+//gray
+$primary: #302C2C;
+//offwhite
+$secondary: #EFEEE4;
+//red
+$tertiary: #A60704;
+
+//fonts
+$baseFont:'Montserrat', sans-serif;
+
+
+//BASE STYLES
+
+html{
+	font-size:62.5%;
+}//html
+
+h1, p{
+	font-family: $baseFont;
+}//h1, p
+
+h1{
+	font-size: 5rem;
+}
+
+header{
+	background: $primary;
+}
+
+.wrapper{
+	max-width: 80%;
+	margin: 0 auto;
+	border: 1px solid red;
+}//wrapper
+
+img{
+	width: 100%;
+}
