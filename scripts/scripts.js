@@ -10,7 +10,7 @@ const qustions =[
 	//apex qustion
 	{
 		qustion: "What point marks the apex?",
-		image: "../assets/qustion_1.png",
+		image: "assets/qustion_1.png",
 		options:[
 		"a",
 		"b",
@@ -23,7 +23,7 @@ const qustions =[
 	//bowl qustion
 	{ 
 		qustion: "What does this point mark?",
-		image: "../assets/qustion_2.png",
+		image: "assets/qustion_2.png",
 		options:[
 		"bowl",
 		"counter",
@@ -35,7 +35,7 @@ const qustions =[
 	//spine qustion
 	{
 		qustion: "What does this point mark?",
-		image: "../assets/qustion_3.png",
+		image: "assets/qustion_3.png",
 		options:[
 		"swatch",
 		"link",
@@ -47,7 +47,7 @@ const qustions =[
 	//k qustion
 	{
 		qustion: "What does the letter k not have?",
-		image: "../assets/qustion_4.png",
+		image: "assets/qustion_4.png",
 		options:[
 		"leg",
 		"arm",
@@ -59,7 +59,7 @@ const qustions =[
 	//serif qustion
 	{
 		qustion: "What point marks the serif?",
-		image: "../assets/qustion_5.png",
+		image: "assets/qustion_5.png",
 		options:[
 		"a",
 		"b",
